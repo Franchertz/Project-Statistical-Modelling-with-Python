@@ -9,7 +9,9 @@
 
 ### Part 1: Establishing Connection with CityBikes API: During this phase, we delved into the structure of the CityBikes API. We developed code that prompts the user for a city name and retrieves information about the chosen city. For this demonstration, Lille was selected as the city, and I successfully acquired data regarding all available bike stations, including their latitude, longitude, and the number of bikes in stock. Subsequently, I parsed the JSON data file into a Pandas dataframe.
 
-#### Part 2: Integration with Foursquare and Yelp APIs: Building on the groundwork laid in Part 1, I saved the dataframe from the initial stage as a CSV file and loaded it into the dataframe for the subsequent analysis. I established connections to the Foursquare and Yelp APIs. For each bike station, I executed queries to both APIs to amass information regarding restaurants, bars, and other specified points of interest (POIs). I generated separate dataframes to house the results from Yelp and Foursquare, allowing us to compare data quality and coverage.
+### Part 2: 
+
+#### Integration with Foursquare and Yelp APIs: Building on the groundwork laid in Part 1, I saved the dataframe from the initial stage as a CSV file and loaded it into the dataframe for the subsequent analysis. I established connections to the Foursquare and Yelp APIs. For each bike station, I executed queries to both APIs to amass information regarding restaurants, bars, and other specified points of interest (POIs). I generated separate dataframes to house the results from Yelp and Foursquare, allowing us to compare data quality and coverage.
 
 
 ### Section 3: Data Integration: In this phase, I seamlessly combined the data collected in Part 1 (bike station data) with the data obtained in Part 2 (Yelp and Foursquare results). Employing data visualization techniques, I explored the merged dataset. Furthermore, I designed and created an SQLite database meticulously considering the database structure to store the collected POI data.
