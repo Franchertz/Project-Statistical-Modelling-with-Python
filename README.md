@@ -9,7 +9,7 @@
 
 ### Part 1: 
 
-#### Establishing Connection with CityBikes API: During this phase, we delved into the structure of the CityBikes API. We developed code that prompts the user for a city name and retrieves information about the chosen city. For this demonstration, Lille was selected as the city, and I successfully acquired data regarding all available bike stations, including their latitude, longitude, and the number of bikes in stock. Subsequently, I parsed the JSON data file into a Pandas dataframe.
+#### Establishing Connection with CityBikes API: During this phase, I delved into the structure of the CityBikes API. I developed code that prompts the user for a city name and retrieves information about the chosen city. For this demonstration, Lille was selected as the city, and I successfully acquired data regarding all available bike stations, including their latitude, longitude, and the number of bikes in stock. Subsequently, I parsed the JSON data file into a Pandas dataframe.
 
 ### Part 2: 
 
