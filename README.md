@@ -2,12 +2,14 @@
 
 ## Project/Goals
 
-### This project's objective is to examine bicycle-sharing data sourced from CityBikes, as well as location-based data obtained from Foursquare and Yelp, with the aim of uncovering valuable insights regarding the correlation between bicycle availability within a specific area and the attributes of nearby points of interest (POIs). 
+#### This project's objective is to examine bicycle-sharing data sourced from CityBikes, as well as location-based data obtained from Foursquare and Yelp, with the aim of uncovering valuable insights regarding the correlation between bicycle availability within a specific area and the attributes of nearby points of interest (POIs). 
 
 ## Process
 
 
-### Part 1: Establishing Connection with CityBikes API: During this phase, we delved into the structure of the CityBikes API. We developed code that prompts the user for a city name and retrieves information about the chosen city. For this demonstration, Lille was selected as the city, and I successfully acquired data regarding all available bike stations, including their latitude, longitude, and the number of bikes in stock. Subsequently, I parsed the JSON data file into a Pandas dataframe.
+### Part 1: 
+
+#### Establishing Connection with CityBikes API: During this phase, we delved into the structure of the CityBikes API. We developed code that prompts the user for a city name and retrieves information about the chosen city. For this demonstration, Lille was selected as the city, and I successfully acquired data regarding all available bike stations, including their latitude, longitude, and the number of bikes in stock. Subsequently, I parsed the JSON data file into a Pandas dataframe.
 
 ### Part 2: 
 
